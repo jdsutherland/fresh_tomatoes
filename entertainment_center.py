@@ -6,7 +6,7 @@ def instantiate_movies():
     ex_machina = media.Movie("Ex Machina",
         "Alex Garland", 
         "1/21/2015", 
-        "Young programmer selected to participate in AI study by company founder.",
+        "Young programmer is selected to participate in AI study by company founder.",
         "http://ia.media-imdb.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_SX214_AL_.jpg",
         "https://youtu.be/gyKqHOgMi4g")
 
@@ -32,6 +32,5 @@ def main():
   fresh_tomatoes.open_movies_page(movies)
 
   
-
 if __name__ ==  '__main__':
     main()
