@@ -22,7 +22,7 @@ def instantiate_movies():
         "8/17/2007",
         "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
         "http://ia.media-imdb.com/images/M/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ@@._V1_SX214_AL_.jpg",
-        "https://youtu.be/zFjaJbihWwc")
+        "https://youtu.be/4q5Mi9gWX8c")
 
     return [ex_machina, goodfellas, superbad]
 
