@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# TODO: docstring
 def instantiate_movies():
     ex_machina = media.Movie("Ex Machina",
         "Alex Garland", 
@@ -28,7 +29,8 @@ def instantiate_movies():
 
 def main():
   movies = instantiate_movies()
-  movies[0].show_trailer()
+  fresh_tomatoes.open_movies_page(movies)
+
   
 
 if __name__ ==  '__main__':
