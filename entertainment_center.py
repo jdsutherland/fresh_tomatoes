@@ -57,6 +57,7 @@ def instantiate_movies():
 
 def main():
     movies = instantiate_movies()
+    # generate html and load the page
     fresh_tomatoes.open_movies_page(movies)
 
   
