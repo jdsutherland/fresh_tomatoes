@@ -8,7 +8,7 @@ import re
 
 
 # Styles and scripting for the page
-main_page_head = '''
+main_page_head = """
 <head>
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title>
@@ -92,10 +92,10 @@ main_page_head = '''
         });
     </script>
 </head>
-'''
+"""
 
 # The main page layout and title bar
-main_page_content = '''
+main_page_content = """
 <!DOCTYPE html>
 <html lang="en">
   <body>
@@ -127,10 +127,10 @@ main_page_content = '''
     </div>
   </body>
 </html>
-'''
+"""
 
 # A single movie entry html template
-movie_tile_content = '''
+movie_tile_content = """
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
@@ -139,7 +139,7 @@ movie_tile_content = '''
     <h4>Released</h4>
     <h5>{release_date}</h5>
 </div>
-'''
+"""
 
 
 def create_movie_tiles_content(movies):

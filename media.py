@@ -23,4 +23,4 @@ class Movie:
         """
         Opens Movie's youtube trailer in a new tab using default browser
         """
-        webbrowser.open(self.youtube_trailer_url)
+        webbrowser.open(self.trailer_youtube_url)
