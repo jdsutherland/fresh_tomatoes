@@ -4,7 +4,7 @@ Fresh Tomatoes is a small python app that generates a webpage showcasing some of
 
 ## Quick start
 
- - Clone the repo: `git clone TODO: add link`
+ - Clone the repo: `git clone https://github.com/jdsutherland/fresh_tomatoes.git`
  - Run the app: `python entertainment_center.py`
 
 ## Dependencies
