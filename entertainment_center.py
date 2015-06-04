@@ -1,8 +1,10 @@
 import fresh_tomatoes
 import media
 
-# TODO: docstring
+
 def instantiate_movies():
+    """ Returns list of favorite movies """
+
     ex_machina = media.Movie("Ex Machina",
         "Alex Garland", 
         "January 21 2015", 
@@ -34,7 +36,7 @@ def instantiate_movies():
     troll2 = media.Movie("Troll 2",
         "Claudio Fragasso",
         "October 12 1990",
-        "The story is irrelevant",
+        "Comedy gold",
         "http://upload.wikimedia.org/wikipedia/en/9/9e/Troll_2_poster.jpg",
         "https://youtu.be/GO6JVBygYxQ")
 
@@ -46,18 +48,17 @@ def instantiate_movies():
         "https://youtu.be/_IwzZYRejZQ")
 
     return [ex_machina, 
-        goodfellas, 
-        saving_private_ryan, 
-        superbad, 
-        troll2,
-        office_space]
+            goodfellas,
+            saving_private_ryan,
+            superbad,
+            troll2,
+            office_space]
 
 
 def main():
-  movies = instantiate_movies()
-  # TODO: add director, release date in fresh_tomatoes display
-  fresh_tomatoes.open_movies_page(movies)
+    movies = instantiate_movies()
+    fresh_tomatoes.open_movies_page(movies)
 
   
-if __name__ ==  '__main__':
+if __name__ == '__main__':
     main()
