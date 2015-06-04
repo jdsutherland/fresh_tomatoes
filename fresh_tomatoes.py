@@ -1,6 +1,11 @@
+"""
+This module is responsible for generating the webpage.
+A list of Movie structures is used to dynamically generate page content.
+"""
 import webbrowser
 import os
 import re
+
 
 # Styles and scripting for the page
 main_page_head = '''
@@ -106,7 +111,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    
+
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -170,4 +175,4 @@ def open_movies_page(movies):
 
     # open the output file in the browser
     url = os.path.abspath(output_file.name)
-    webbrowser.open('file://' + url, new=2) # open in a new tab, if possible
+    webbrowser.open('file://' + url, new=2)  # open in a new tab, if possible
